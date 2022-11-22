@@ -1,5 +1,4 @@
-
-let userData = ["email", "password"];
+// my fav data
   let userJSON = {
     fname: "Lane",
     lname: "Schmidt",
@@ -7,7 +6,7 @@ let userData = ["email", "password"];
     bet:   "$10,000,000",
     phone: "123-456-7890"
   };
-
+// load my fav data
   $("#loadData").click(() => {
 
     $("#fname").val(userJSON.fname);
@@ -63,6 +62,7 @@ function myFunction() {
     console.log(dataStuff);
   });
 
+// gets your answer from radio button and then displays correct options for dropdown
 function getAge(choice) {
 
   let yesArray = ["Choose the horse you would like to bet on!", "Always Dreaming", "Nyquist", "American Pharoah", "California Chrome"];
@@ -77,6 +77,7 @@ function getAge(choice) {
   }
 }
 
+// submit event
 $(document).ready(function () {
   $("#greetingOutput").text("");
 
