@@ -1,0 +1,39 @@
+body{
+    background-color: cornsilk;
+    color: red;
+    font-size: 24px;
+}
+
+.card{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.card-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;;
+}
+
+  #email {  
+    width: 400px;
+   }
+
+  #fname{
+    width: 200px;
+  }
+
+  #lname{
+    width: 200px;
+  }
+
+  #loadData{
+    background-color: red;
+    color: black;
+    font-size: 24px;
+  }
+
+  #submitButton{
+    background-color: red;
+    margin-top: 10px;
+  }
